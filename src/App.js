@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+// import ReduxPage from './pages/ReduxPage';
+import WReduxPage from './pages/WReduxPage';
+import WHookPage from './pages/WHookPage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +20,11 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      {/* <ReduxPage/> */}
+      
+      <WReduxPage/>
+      <WHookPage/>
     </div>
   );
 }
